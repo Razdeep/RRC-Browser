@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RRC Browser</string>
     <string name="go">Go</string>
+    <string name="reload">R</string>
 </resources>
