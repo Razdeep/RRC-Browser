@@ -11,14 +11,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="0.001"
-        >
+        android:layout_weight="0.10"
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="45dp"
             android:layout_height="match_parent"
             android:padding="0dp"
+            android:background="@color/colorAccent"
             android:text="@string/reload" />
 
         <EditText
@@ -33,35 +33,40 @@
             android:background="@color/colorAccent"
             android:text="@string/go" />
     </LinearLayout>
+
     <WebView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.9"
-        ></WebView>
+        android:layout_weight="0.80"></WebView>
+
     <LinearLayout
+        android:layout_weight="0.10"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
+
         <Button
-            android:text="Back"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:text="Back" />
+
         <Button
-            android:text="Back"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:text="Back" />
+
         <Button
-        android:text="Back"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:text="Back" />
+
         <Button
-        android:text="Back"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
-        <Button
-        android:text="Back"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:text="Back" />
     </LinearLayout>
 </LinearLayout>
